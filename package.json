@@ -1,0 +1,14 @@
+{
+  "name": "css-card",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && surge ./dist https://valeriysiluyanov.surge.sh/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  }
+}
